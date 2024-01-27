@@ -46,6 +46,7 @@ header img {
   height: 100px;
   background: grey;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 header h1, header h2 {
