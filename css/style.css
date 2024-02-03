@@ -39,6 +39,8 @@ header {
   align-items: center;
   padding: 1.5rem 0;
   color: white;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 header img {
