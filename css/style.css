@@ -2,19 +2,28 @@
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
 }
 
 body { 
   background-image: linear-gradient(-45deg, #8dadff 20%, #ff8f8f 80%) ;
+  font-family: "Poppins", "Inter", sans-serif;
 }
 
 .container {
   width: 100vw;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.disclaimer {
+  margin-bottom: 0.5rem;
+  color: #c00;
+  font-weight: 300;
 }
 
 .card {
@@ -24,7 +33,6 @@ body {
   background: white;
   border: 1px solid black;
   border-radius: 10px;
-  margin: auto;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   grid-template-rows: 1fr;
@@ -39,8 +47,7 @@ header {
   align-items: center;
   padding: 1.5rem 0;
   color: white;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-radius: 0 20% 20% 0;
 }
 
 header img {
@@ -52,7 +59,7 @@ header img {
 }
 
 header h1, header h2 {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 header h1 {
